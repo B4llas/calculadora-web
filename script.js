@@ -25,5 +25,10 @@ function dividir() {
     document.getElementById("resultado").innerText = "Erro: divisão por zero";
     return;
   }
-  document.getElementById("resultado").innerText = n1 / n2;
+  document.getElementById("resultado").innerText = "Resultado: " + (n1 + n2);
+}
+function limpar() {
+  document.getElementById("num1").value = "";
+  document.getElementById("num2").value = "";
+  document.getElementById("resultado").innerText = "";
 }

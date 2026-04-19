@@ -1,17 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>Calculadora</h1>
+  <div class="container">
+    <h1>Calculadora</h1>
 
-  <input id="num1" type="number" placeholder="Número 1">
-  <input id="num2" type="number" placeholder="Número 2">
+    <input id="num1" type="number" placeholder="Número 1">
+    <input id="num2" type="number" placeholder="Número 2">
 
-  <br><br>
+    <br><br>
 
+    <div class="botoes">
   <button onclick="somar()">+</button>
   <button onclick="subtrair()">-</button>
   <button onclick="multiplicar()">*</button>
   <button onclick="dividir()">/</button>
+  <button onclick="limpar()">C</button>
+</div>
 
-  <p id="resultado"></p>
+    <p id="resultado"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
+</html>
